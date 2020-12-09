@@ -1,0 +1,64 @@
+  
+  //HomePage background color
+  ion-content {
+    --ion-background-color: #BDD6F0;
+    
+    }
+    
+    
+    
+    //Justification between Social Networks logos
+    
+    .flex{
+      display: flex;
+      justify-content: space-evenly;
+    
+    }
+    
+    //Font Roboto
+    .roboto{
+      font-family: 'Roboto';
+    
+    
+    }
+  
+  .latobold{
+  
+      font-family: 'Lato';
+      font-weight: bold;
+  
+  }
+  
+  .latothin{
+  
+      font-family: 'Lato';
+  
+  }
+  
+    
+    
+    //CV Picture dimensions
+    
+    .size {
+      width: 70px;
+      height: 70px;
+    
+    }
+    
+    //Dimensions logo social networks
+    
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+    
+    
+  
+    
+    .cardsize{
+  
+      width: 340px;
+      height: 230px;
+      border: 30px;
+  
+  }

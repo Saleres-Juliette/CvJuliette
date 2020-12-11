@@ -5,9 +5,7 @@
     
     }
     
-    
-    
-    //Justification between Social Networks logos
+    //Space-evenly between team projects title and team projects logo 
     
     .flex{
       display: flex;
@@ -21,6 +19,8 @@
     
     
     }
+
+    //Font Lato bold
   
   .latobold{
   
@@ -29,6 +29,9 @@
   
   }
   
+
+  //Font Lato thin
+
   .latothin{
   
       font-family: 'Lato';
@@ -37,7 +40,7 @@
   
     
     
-    //CV Picture dimensions
+    //Dimensions of the Laurea and TeamWork logos 
     
     .size {
       width: 70px;
@@ -55,7 +58,7 @@
     }
     
     
-  
+  //Dimensions of the ion-card
     
     .cardsize{
   

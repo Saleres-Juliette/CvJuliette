@@ -1,13 +1,14 @@
   
-  //HomePage background color
-  ion-content {
+      //HomePage background color
+
+      ion-content {
     --ion-background-color: #BDD6F0;
     
     }
     
     
     
-    //Justification between Social Networks logos
+    //Space-evenly between personal projects title and personal projects logo 
     
     .flex{
       display: flex;
@@ -21,6 +22,8 @@
     
     
     }
+
+    //Font Lato bold
   
   .latobold{
   
@@ -29,23 +32,18 @@
   
   }
   
+
+   //Font Lato thin
+
   .latothin{
   
       font-family: 'Lato';
   
   }
   
+  
     
-    
-    //CV Picture dimensions
-    
-    .size {
-      width: 70px;
-      height: 70px;
-    
-    }
-    
-    //Dimensions logo social networks
+  //Logo personal projects
     
     .logo {
       width: 50px;
@@ -53,7 +51,7 @@
     }
     
     
-  
+//Dimensions of the ion-card
     
     .cardsize{
   

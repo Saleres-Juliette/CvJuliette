@@ -1,24 +1,38 @@
-.latothin{
 
-    font-family: 'Lato';
-
-}
-
- 
+  
   //HomePage background color
   ion-content {
     --ion-background-color: #BDD6F0;
     
     }
+
+
+//Tick image
+
+.size {
+    width: 30px;
+    height: 30px;
+  
+  }
+
+//Latothin font
     
+  .latothin{
+  
+    font-family: 'Lato';
 
+}
 
-    //Logo team projects
+  
+//Logo technical skills
     
     .logo {
-      width: 50px;
-      height: 50px;
+      width: 55px;
+      height: 55px;
     }
+    
+
+//Space-evenly between Soft skills title and logo 
     
     .flex{
       display: flex;

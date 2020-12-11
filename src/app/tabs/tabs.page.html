@@ -1,8 +1,12 @@
 <ion-content>
 
   <ion-header>
+
+<!-- Ion-toolbar -->
+
     <ion-toolbar color="primary">
 
+<!-- Menu Ion-icon -->
     <ion-icon size="large" name="menu-outline"></ion-icon>
     <div class="ion-text-center">
   </div>
@@ -10,6 +14,9 @@
   <ion-buttons slot="star">
     <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>
+
+<!-- My CV App title -->
+
     <ion-title> My CV App </ion-title>
   
   </ion-toolbar>
@@ -19,31 +26,52 @@
 
 <ion-tabs>
 
+<!-- Ion-tab-bar containing the different ion-tab-button representing the pages as icons -->
+
   <ion-tab-bar slot="bottom" color="primary">
+
+
+<!-- Ion-tab-button representing the Personal Profile Page -->
+
     <ion-tab-button tab="personalprofile">
   <ion-img class='size' :src="./assets/image.png"></ion-img>
       <ion-label></ion-label>
     </ion-tab-button>
+
+
+<!-- Ion-tab-button representing the Technical skills Page -->
 
     <ion-tab-button tab="techskills">
       <ion-icon name="bulb-outline"></ion-icon>
       <ion-label></ion-label>
     </ion-tab-button>
 
+
+
+<!-- Ion-tab-button representing the Soft skills Page -->
+
     <ion-tab-button tab="softskills">
       <ion-icon name="chatbox-ellipses-outline"></ion-icon>
       <ion-label></ion-label>
     </ion-tab-button>
+
+<!-- Ion-tab-button representing the Team Projects Page -->
 
     <ion-tab-button tab="teamprojects">
       <ion-icon name="people-circle-outline"></ion-icon>
       <ion-label></ion-label>
     </ion-tab-button>
 
+
+<!-- Ion-tab-button representing the Personal Projects Page -->
+
     <ion-tab-button tab="personalprojects">
       <ion-icon name="person-circle-outline"></ion-icon>
       <ion-label> </ion-label>
     </ion-tab-button>
+
+
+<!-- Ion-tab-button representing the Hobbies Page -->
 
     <ion-tab-button tab="hobbies">
       <ion-icon name="bicycle-outline"></ion-icon>

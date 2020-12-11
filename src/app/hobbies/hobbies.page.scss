@@ -1,14 +1,22 @@
+
+
+//Latobold font
+
+
 .latobold{
 font-family: Lato;
 font-weight: bold;
 }
 
 
+//Latothin font
 
 .latothin{
   font-family: Lato;
 
 }
+
+//Dimensions of hobbies images for items
 
 .size {
     width: 50px;
@@ -17,15 +25,15 @@ font-weight: bold;
   }
 
 
-  
-
-
-    //Logo team projects
+//Logo Hobbies
     
     .logo {
       width: 50px;
       height: 50px;
     }
+
+
+//Space-evenly between Hobbies title and logo 
     
     .flex{
       display: flex;

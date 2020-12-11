@@ -33,21 +33,12 @@
   
   }
   
-  //HomePage background color
+  //HomePage background blue color
   ion-content {
   --ion-background-color: #BDD6F0;
   
   }
   
-  
-  
-  //Justification between Social Networks logos
-  
-  .flex{
-    display: flex;
-    justify-content: space-around;
-  
-  }
   
   //Font Roboto
   .roboto{
@@ -56,12 +47,16 @@
   
   }
 
+  //Font Lato bold
+
 .latobold{
 
     font-family: 'Lato';
     font-weight: bold;
 
 }
+
+ //Font Lato thin
 
 .latothin{
 
@@ -80,7 +75,7 @@
   }
 
 
-
+  //Icons dimensions of items
     
   .sizelogo {
     width: 40px;
@@ -88,18 +83,4 @@
   
   }
   
-  //Dimensions logo social networks
   
-  .logo {
-    width: 40px;
-    height: 40px;
-  }
-  
-
-  
-  .cardsize{
-
-    width: 340px;
-    height: 250px;
-
-}

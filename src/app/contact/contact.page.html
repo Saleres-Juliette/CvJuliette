@@ -1,4 +1,6 @@
 <ion-content >
+
+    <!-- Button on the left to go back to the personal profile page-->
   
   <ion-button color="primary" href="/tabs"> 
     <ion-icon name="chevron-back-circle-outline"></ion-icon>
@@ -8,34 +10,45 @@
 
 <ion-row class="ion-justify-content-center">
   <ion-text class="latothin">
+
+     <!-- Contact me title -->
+
   <h1> Contact me </h1>
 
   </ion-text>
 
-<br>
+  <br>
 
-</ion-row>
+  </ion-row>
 
-<ion-row class="ion-justify-content-center">   
+  <ion-row class="ion-justify-content-center">   
   
+   <!-- CV image -->
 
-<ion-img class='size' :src="./assets/image.png"></ion-img>
-</ion-row>
+  <ion-img class='size' :src="./assets/image.png"></ion-img>
+  </ion-row>
 
-<ion-col>
+  <ion-col>
         <div class="ion-text-center">
-                <ion-text color="tertiary"> 
-                <h1 class="latobold">Juliette Saleres</h1>
-                </ion-text>
-      
-</div>
+          <ion-text color="tertiary"> 
 
-</ion-col>
+   <!-- Name title -->
+
+          <h1 class="latobold">Juliette Saleres</h1>
+          </ion-text>
+      
+  </div>
+
+  </ion-col>
 
     <ion-col class="ion-justify-content-center">   
 
-<ion-list>
-  <ion-item>
+  <!-- Ion list component containing contact information items-->
+
+  <ion-list>
+
+<!-- Number phone item -->
+      <ion-item>
     <ion-thumbnail slot="start">
       <ion-img class='sizelogo' :src="./assets/phone.png"></ion-img>
     </ion-thumbnail>
@@ -47,6 +60,8 @@
 
 </ion-label>
     </ion-item>
+
+    <!-- Adress item -->
 
     <ion-item>
       <ion-thumbnail slot="start">
@@ -61,6 +76,7 @@
   </ion-label>
       </ion-item>
 
+    <!-- Email item -->
 
       <ion-item>
         <ion-thumbnail slot="start">
@@ -75,6 +91,8 @@
     </ion-label>
         </ion-item>
 
+        <!-- Linkedin item -->
+
       <ion-item>
         <ion-thumbnail slot="start">
           <ion-img class='sizelogo' :src="./assets/linkedin.png"></ion-img>
@@ -87,19 +105,7 @@
     </ion-label>
         </ion-item>
 
-
-
-
-
-
-
-
-
-
     </ion-list>
-  
-
-
 
     </ion-col>
   

@@ -33,28 +33,13 @@
   
   }
   
-  //HomePage background color
+  //HomePage background blue color
   ion-content {
   --ion-background-color: #BDD6F0;
   
   }
   
-  
-  
-  //Justification between Social Networks logos
-  
-  .flex{
-    display: flex;
-    justify-content: space-evenly;
-  
-  }
-  
-  //Font Roboto
-  .roboto{
-    font-family: 'Roboto';
-  
-  
-  }
+  //Lato bold font
 
 .latobold{
 
@@ -62,6 +47,8 @@
     font-weight: bold;
 
 }
+
+ //Lato thin font
 
 .latothin{
 
@@ -78,7 +65,7 @@
   
   }
   
-  //Dimensions logo social networks
+  //Dimensions white logo CV image 
   
   .logo {
     width: 50px;
@@ -86,7 +73,7 @@
   }
   
   
-
+  //Dimensions card
   
   .cardsize{
 
@@ -95,14 +82,4 @@
 
 }
 
-ion-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 0 90px 1px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-family: Lato;
-  font-weight: bold;
-}
+

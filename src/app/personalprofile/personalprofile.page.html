@@ -1,44 +1,51 @@
 <ion-content >
 
     <ion-toolbar>
-      <ion-title > 
-        Personal Profile
-      </ion-title>
-      
         </ion-toolbar>
 
+  <!-- Title personal profile-->
 
-
-    <ion-row class="ion-justify-content-center">
+  <ion-row class="ion-justify-content-center">
       <ion-text class="latothin">
       <h1> Personal Profile </h1>
     
       </ion-text>
     
+    <!-- Logo CV -->
+
+  <ion-img class='logo' :src="./assets/cv.png"></ion-img>
     
-    <ion-img class='logo' :src="./assets/cv.png"></ion-img>
-    
-    </ion-row>
+  </ion-row>
 
   <ion-row class="ion-justify-content-center">   
-<ion-img class='size' :src="./assets/image.png"></ion-img>
-</ion-row>
+
+    <!-- Image CV -->
+
+    <ion-img class='size' :src="./assets/image.png"></ion-img>
+  </ion-row>
 
 <br>
 
+
+
   <ion-col>
           <div class="ion-text-center">
-                  <ion-text color="tertiary"> 
+
+    <!-- Name title -->
+                  <ion-text color="tertiary">    
                   <h1 class="latobold">Juliette Saleres</h1>
                   </ion-text>
           
-  
+  <!-- Web and Mobile app designer title -->
+
           <ion-text color="tertiary"> 
           <h4 class="latobold" > Web and Mobile app designer </h4>
           </ion-text>
   </div>
 
 </ion-col>
+
+ <!-- Ion card containing sections about me and my educational experience  -->
   
       <ion-col class="ion-justify-content-center">   
   <ion-card color="success" class="cardsize">
@@ -64,6 +71,9 @@
 
 
   </ion-card>
+
+  <!-- Button that redirects to the Contact page  -->
+
       </ion-col>
       <ion-row class="ion-justify-content-center">   
       <ion-button href='/contact' size="large" color="tertiary"> CONTACT ME </ion-button>

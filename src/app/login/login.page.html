@@ -1,9 +1,12 @@
 <ion-content>
 
-
   <ion-col>
     <div class="ion-text-center">
+
+          <!-- My Curriculum Vitae title -->
+
             <ion-text color="primary"> 
+
             <h1 class="robotobold">MY CURRICULUM</h1>
             </ion-text>
 
@@ -19,29 +22,31 @@
 </ion-col>
 
 
+  <!-- If the user is not logged in, we display the login form -->       
+
 <ion-row class="ion-justify-content-center">   
 <ion-card class="minicard" color="light" shape="round">
+  <div *ngIf="!connected">
 
     <ion-row class="ion-justify-content-center">   
-
 
 <ion-img class='image' :src="./assets/mail.png"></ion-img>
   </ion-row>
 
     <ion-row class="ion-justify-content-center">   
 <ion-card color="secondary" class="cardsize">
-  <ion-item color="primary">
+
+
+<!-- First Email field -->
+
+  <ion-item>
 
  <ion-label> Email: </ion-label>
-  <ion-input> </ion-input>
+  <ion-input type="email"[(ngModel)]="dataUser.email"> </ion-input>
 
   </ion-item>
-  
- 
 </ion-card>
-    </ion-row>
-    
-  
+    </ion-row> 
 <ion-row class="ion-justify-content-center">   
 
   <ion-img class='image' :src="./assets/password.png"></ion-img>
@@ -51,10 +56,13 @@
       
       
       <ion-card color="medium" class="cardsize">
-        <ion-item color="primary">
+
+    <!-- Second Email field -->
+
+        <ion-item>
 
           <ion-label>Password : </ion-label>
-    <ion-input> </ion-input>
+    <ion-input type="password" [(ngModel)]="dataUser.password"> </ion-input>
          
            </ion-item>
 
@@ -63,21 +71,81 @@
   
     </ion-row>
  
+
+   
+          <br>
           <br>
 
 
+
+ 
+
+          <ion-row class="ion-justify-content-center">  
+
+            <!-- Log in Button -->  
+
+          <ion-button (click)="login()" size="large" color="secondary">LOG IN </ion-button>
+          <br>
+
+    
+          <!-- Sign up Button -->   
+
+          <ion-button (click)="signUp()" size="large" color="secondary">SIGN UP </ion-button>
+          </ion-row>
+
         
+
+          <br>
+          <br>
+
+
+</div>
 </ion-card>
 </ion-row>
 
+  <!-- If the user is already logged in, we display a welcome message  -->   
+
+<div *ngIf="connected">
+  <div class="ion-text-center"> 
+
+    <ion-col>
+      <div class="ion-text-center">
+        <ion-row class="ion-justify-content-center">   
+
+          <ion-img class='size' :src="./assets/cv.png"></ion-img>
+          </ion-row>     
+
+          
+</div>
+
+</ion-col>
+
 <br>
 <br>
+
+<ion-col>
 
 <ion-row class="ion-justify-content-center">  
-  <ion-button href="/tabs" size="large" color="secondary">LOG IN </ion-button>
-  <br>
+  
+  
+   <!--Button to access the main page personal profile with tab bar and menu navigation  --> 
 
-  </ion-row>
+<ion-button href="/tabs" size="large" color="primary" shape="round" > TAP TO START </ion-button>
+
+</ion-row>
+
+</ion-col>
+
+<br>
+<br>
+
+
+  <!-- Log out Button -->   
+
+<ion-button (click)="logout()" size="default" fill="outline" color="danger">DECONNEXION</ion-button>
+
+</div>
+</div>
 
 </ion-content>
 

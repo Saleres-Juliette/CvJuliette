@@ -1,10 +1,58 @@
+
 //HomePage background color
 ion-content {
-    --ion-background-color: #BDD6F0;
-    
-    }
-    
-    
+  --ion-background-color: #BDD6F0;
+  
+  }
+
+  // Email and password images
+
+  .image{
+      width: 46px;
+      height: 50px;
+  }
+
+
+
+// Sizw of cards for items email and password
+
+  .cardsize{
+
+      width: 280px;
+      height: 45px;
+
+  }
+
+  // Dimensions of card
+
+
+  .minicard{
+
+      width: 305px;
+   
+
+  }
+
+
+  //Roboto font
+
+
+.roboto{
+  font-family: 'Roboto';
+
+
+}
+
+  // Bold Roboto font
+
+.robotobold{
+  font-family: 'Roboto';
+  font-weight: bold;
+
+
+}
+
+
     
     //Justification between Social Networks logos
     
@@ -13,28 +61,16 @@ ion-content {
       justify-content: space-evenly;
     
     }
-    
-    //Font Roboto Bold
-    .robotobold{
-      font-family: 'Roboto';
-      font-weight: bold;
-      font-size: xx-large;
-    
-    }
-  
-      //Font Roboto thin
-      .roboto{
-        font-family: 'Roboto';
-      
-      }
-  
-    
-    
+
+
+
+
+
     //CV picture dimensions
     
     .size {
-      width: 330px;
-      height: 220px;
+      width: 110px;
+      height: 110px;
     
     }
     
@@ -46,29 +82,4 @@ ion-content {
     }
     
     
-    // Username and password images
-
-    .image{
-      width: 46px;
-      height: 50px;
-  }
-
-  // Size of cards
-
-
-  .cardsize{
-
-      width: 280px;
-      height: 45px;
-
-  }
-  .minicard{
-
-      width: 305px;
-   
-
-  }
-
-
-
-
+    

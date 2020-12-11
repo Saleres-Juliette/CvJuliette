@@ -1,0 +1,81 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  
+  //HomePage background color
+  ion-content {
+    --ion-background-color: #BDD6F0;
+    
+    }
+    
+    
+    
+    //Justification between Social Networks logos
+    
+    .flex{
+      display: flex;
+      justify-content: space-evenly;
+    
+    }
+    
+    //Font Roboto Bold
+    .robotobold{
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: xx-large;
+    
+    }
+  
+      //Font Roboto thin
+      .roboto{
+        font-family: 'Roboto';
+      
+      }
+  
+    
+    
+    //CV picture dimensions
+    
+    .size {
+      width: 330px;
+      height: 220px;
+    
+    }
+    
+    //Dimensions logo social networks
+    
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+    
+    
+    
+    
+    
+  

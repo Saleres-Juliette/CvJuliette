@@ -32,7 +32,15 @@
     padding-top: 4px;
   
   }
-  
+
+//Color of Ion card 
+  ion-card{
+
+    --ion-background-color: white;
+
+  }
+
+
   //HomePage background blue color
   ion-content {
   --ion-background-color: #BDD6F0;
